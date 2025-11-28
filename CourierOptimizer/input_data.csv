@@ -1,0 +1,20 @@
+customer,latitude,longitude,priority,weight_kg
+# VALID DELIVERIES
+Depot (Starting Point),59.9139,10.7522,Medium,0.0
+Aker Brygge,59.9079,10.7289,High,1.5
+Barcode Project,59.9080,10.7600,High,4.2
+National Gallery,59.9142,10.7487,Medium,8.1
+Vigeland Museum,59.9147,10.6970,Medium,1.0
+Tjuvholmen,59.9060,10.7200,Low,15.5
+Grünerløkka Cafe,59.9210,10.7630,Low,0.5
+Oslo Opera House,59.9079,10.7510,Medium,6.3
+Holmenkollen Ski Museum,59.9723,10.6690,High,2.0
+Oslo City Hall,59.9134,10.7335,Medium,3.5
+The Royal Palace,59.9150,10.7275,High,1.8
+Akershus Fortress,59.9056,10.7397,Low,12.0
+
+# INVALID ENTRIES (For testing data_validator.py)
+Invalid Priority Item,59.9100,10.7500,Urgent,5.0
+Invalid Lat/Lon Range,95.0000,10.7000,Medium,1.0
+Invalid Weight Negative,59.9200,10.7050,High,-2.0
+Missing Customer,,10.7500,Medium,4.0
