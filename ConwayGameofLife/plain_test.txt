@@ -1,0 +1,4 @@
+# Glider pattern
+.O.
+..O
+OOO
